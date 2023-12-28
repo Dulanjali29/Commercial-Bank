@@ -1,101 +1,121 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
-.ms-6{
-margin-left: 800px;
+
+.ms-6 {
+    margin-left: 800px;
 }
-.ms-7{
+
+.ms-7 {
     margin-left: 250px;
 }
-.ms-11{
+
+.ms-11 {
     margin-left: 300px;
 }
-.ms-8{
+
+.ms-8 {
     margin-left: 100px;
 }
-.ms-9{
+
+.ms-9 {
     margin-left: 150px;
-    
+
 }
-.ms-10{
+
+.ms-10 {
     margin-left: 150px;
 }
+
 /* secand nav */
-.w-10{
+.w-10 {
     width: 50px;
 }
 
-.px-7{
-  position: relative;
-  left: 10%;
+.px-7 {
+    position: relative;
+    left: 10%;
 }
 
-.bg-comash{
+.bg-comash {
     background-color: #FAFAFA;
 }
-.bg-comash-1{
+
+.bg-comash-1 {
     background-color: #bdc3c7;
 }
-.bg-nav{
 
-   background-color: #f7f8f8; 
+.bg-nav {
+
+    background-color: #f7f8f8;
 }
-.bg-dropdown{
+
+.bg-dropdown {
     background-color: white;
 }
-.text-icon{
+
+.text-icon {
     margin-top: -50px;
 }
-.drop-btn{
+
+.drop-btn {
     width: 25px;
     margin-right: 10px;
     left: 20px;
 }
-.borderA{
-   border-radius: 100%;
-   height: 20px;
-   width: 20px;
-   border: 1px solid #bdc3c7;
-   position: relative;
-   top: 10px;
-   left: 100px;
-   margin-right: 10px; 
+
+.borderA {
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #bdc3c7;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    margin-right: 10px;
 }
-.li-a{
+
+.li-a {
     position: relative;
     bottom: 11px;
     right: 4px;
     padding-left: 10px;
 }
-body{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
 }
+
 .text-yellow {
-  
+
     color: #f7d700;
-  
+
 }
+
 .text-white {
-  
+
     color: white;
-  
+
 }
-.carousel{
-   max-width:100%;
-    height: 600px;  
+
+.carousel {
+    max-width: 100%;
+    height: 600px;
     user-select: none;
 }
 
-.slid-txt{
-    position: absolute; 
-    z-index: 1; 
-    width: 100%; 
+.slid-txt {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
     margin-top: 8rem;
     margin-left: 80px;
 }
-.btn-dropdown{
+
+.btn-dropdown {
     background-color: white;
 }
-h1{
+
+h1 {
     display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -105,118 +125,155 @@ h1{
     font-weight: bold;
 }
 
-.third-nav-bar{
-position: relative;
+.third-nav-bar {
+    position: relative;
 
 }
 
-.third-nav-bar :hover{
+.third-nav-bar :hover {
 
     color: #4972cf;
-    
+
 }
 
 
-.txt-p{
-    color:#3e4151 ;
+.txt-p {
+    color: #3e4151;
 }
-.txt-icon{
-color: #a2a3aa;
+
+.txt-icon {
+    color: #a2a3aa;
 }
-.item-button{
+
+.item-button {
     width: 80%;
     height: 120px;
 }
-.second-slid-txt{
-    position: absolute; 
-    z-index: 1; 
-    width: 80%; 
+
+.second-slid-txt {
+    position: absolute;
+    z-index: 1;
+    width: 80%;
     margin-top: 1rem;
     margin-left: 180px;
-   
- 
-}
-.section-blue-line{
-background-color:#095ac8 ;
-width:100% ;
-height:200px ;
+
 
 }
-.card-hover:hover{
-background-color: #094caa;
-color: white;
-cursor: pointer;
+
+.section-blue-line {
+    background-color: #095ac8;
+    width: 100%;
+    height: 200px;
+
 }
-.carousel-2{
-    max-width:100%;
-     height: 400px;  
-     user-select: none;
- }
- .slid-txt2{
-    position: absolute; 
-    z-index: 1; 
-    width: 100%; 
-    margin-bottom:10px;
+
+.card-hover:hover {
+    background-color: #094caa;
+    color: white;
+    cursor: pointer;
+}
+
+.carousel-2 {
+    max-width: 100%;
+    height: 400px;
+    user-select: none;
+}
+
+.slid-txt2 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 10px;
     margin-left: 80px;
 }
-.float-icon{
+
+.float-icon {
     display: flex;
     justify-content: end;
 }
-.float-icon-img{
+
+.float-icon-img {
     display: flex;
     justify-content: end;
     left: 94%;
- 
+
     top: 160px;
-   
+
 }
 
+.hover-image {
+    display: flex;
+    justify-content: end;
+}
 
-  .fixed-float-image-slid{
-   
-        animation-name: example;
-        animation-duration: 1s;
-        background-image: url("/assests/f-menu-item-1.svg");
-        background-size: cover;
-      
-          
-    }
-@keyframes example{
-    0%{
+.absolute-image {
+    width: 190px;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 900;
+}
+
+.fixed-float-image-slid {
+
+    animation-name: example;
+    animation-duration: 1s;
+    background-image: url("/assests/f-menu-item-1.svg");
+    background-size: cover;
+
+
+}
+
+@keyframes example {
+    0% {
         background-image: url("./assests/f-menu-item-1.svg")
-    };
-    25%{
+    }
+
+    ;
+
+    25% {
         background-image: url("./assests/f-menu-item-2.svg")
-    };
-    50%{
+    }
+
+    ;
+
+    50% {
         background-image: url("./assests/f-menu-item-3.svg")
-    };
-    75%{
+    }
+
+    ;
+
+    75% {
         background-image: url("./assests/f-menu-item-4.svg")
-    };
-    100%{
+    }
+
+    ;
+
+    100% {
         background-image: url("./assests/f-menu-item-5.svg")
-    };
+    }
+
+    ;
 }
 
 
-.float-icon-image{
+.float-icon-image {
     display: none;
     position: relative;
     width: 40px;
     height: 40px;
     border-radius: 100%;
     margin-top: 40px;
-    
-    }
-    .date{
-       color: #525252;
-       font-size: 1.2rem;
-        margin-bottom: 10px;
-    }
 
-.follow-us-icon{
+}
+
+.date {
+    color: #525252;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.follow-us-icon {
     cursor: pointer;
-   
+
 }

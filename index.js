@@ -6,3 +6,9 @@ const mouseClick=()=>{
         icon.style.display='none';
     }
 }
+const mouseOver=()=>{
+    document.getElementById('hover-img').src='./assests/hover2.png'
+}
+const mouseOut=()=>{
+    document.getElementById('hover-img').src='./assests/hover1.png'
+}
