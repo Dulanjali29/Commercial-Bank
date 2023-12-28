@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>email</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="COMBANK-Personal-Banking--Navigation-2.0-Copy-4" transform="translate(-1366.000000, -313.000000)" fill="#005FEA" fill-rule="nonzero">
+            <g id="email" transform="translate(1366.000000, 313.000000)">
+                <path d="M17.9649123,0 L1.99611696,0 C0.89328655,0 0.0100116959,0.893239766 0.0100116959,1.99611696 L0,13.9726784 C0,15.0755556 0.893239766,15.9687953 1.99611696,15.9687953 L17.9649123,15.9687953 C19.0677427,15.9687953 19.9610292,15.0755556 19.9610292,13.9726784 L19.9610292,1.99607018 C19.9610292,0.893239766 19.0677427,0 17.9649123,0 Z M17.9649123,3.99218713 L9.98049123,8.98245614 L1.99611696,3.99218713 L1.99611696,1.99607018 L9.98049123,6.98633918 L17.9649123,1.99607018 L17.9649123,3.99218713 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
