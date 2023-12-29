@@ -124,7 +124,16 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+.second-nav-bar {
+    position: relative;
 
+}
+
+.second-nav-bar :hover {
+
+    color: #4972cf;
+
+}
 .third-nav-bar {
     position: relative;
 
@@ -139,6 +148,7 @@ h1 {
 
 .txt-p {
     color: #3e4151;
+    
 }
 
 .txt-icon {
