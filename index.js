@@ -49,6 +49,7 @@ $("#services").mouseover(function(){
 })
 $("#personal_bank").mouseout(function(){
     $("#personal_bank").css("color"," black");
+  
     $('.nav_personal_bank,.nav_business_bank,.nav_non_resident_banking,.nav_services').hide(); 
   
 })
